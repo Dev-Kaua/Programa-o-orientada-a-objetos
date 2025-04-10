@@ -1,17 +1,10 @@
-public class ServiçoMensagemInstantanea {
-  public void enviarMensagem(){
-    validarConectadoInternet();
-    System.out.println("Enviando msg");
-    salvarHistoricoMensagem();
-  }
-  public void receberMensagem(){
-    System.out.println("Recebendo msg");
-  }
+public abstract class ServiçoMensagemInstantanea {
+  public abstract void enviarMensagem();
+  public abstract  void receberMensagem();
   //boas práticas do encapsulamentos
-  private void validarConectadoInternet(){
-    System.out.println("Validando conexao");
-  }
-  private void salvarHistoricoMensagem(){
-    System.out.println("Salvando histórico");
+  
+  //somente os filhos conhecem esse método
+  protected void validarConectadoInternet() {
+    System.out.println("Validando a conexão com a internet");
   }
 }
