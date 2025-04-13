@@ -1,0 +1,16 @@
+{
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-21",
+        "path": "CAMINHO_PARA_SEU_JDK_21",
+        "default": true
+      }
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.jdt.ls.vmargs": "--enable-preview",
+    "java.project.sourcePaths": [
+      "src"
+    ],
+    "java.project.referencedLibraries": []
+}
+
