@@ -9,9 +9,9 @@ public non-sealed class BRLClock extends Clock{
         usClock.getHour() + 12 :
         usClock.getHour();
       
-      case BRLClock brlClock -> this.hour = brlClock.getHour();
+      case BRLClock brlClock -> this.hour = brlClock.getHour(); 
       
     }
     return this;
   }
-}
+} 

@@ -1,16 +1,21 @@
 {
-    "java.configuration.runtimes": [
-      {
-        "name": "JavaSE-21",
-        "path": "CAMINHO_PARA_SEU_JDK_21",
-        "default": true
-      }
-    ],
-    "java.compile.nullAnalysis.mode": "automatic",
-    "java.jdt.ls.vmargs": "--enable-preview",
-    "java.project.sourcePaths": [
-      "src"
-    ],
-    "java.project.referencedLibraries": []
+  "java.jdk.home": "C:\\Users\\Master\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-21.0.6.7-hotspot",
+
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "C:\\Users\\Master\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-21.0.6.7-hotspot",
+      "default": true
+    }
+  ],
+
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.jdt.ls.vmargs": "--enable-preview",
+  "java.project.sourcePaths": [
+    "src"
+  ],
+  "java.project.referencedLibraries": [],
+  "java.autobuild.enabled": true
 }
+
 
