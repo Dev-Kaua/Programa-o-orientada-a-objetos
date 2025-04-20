@@ -1,0 +1,43 @@
+[
+  {
+    "historico": [
+      "[20/04/2025 03:26:50] Depósito de R$32000.0",
+      "[20/04/2025 03:27:08] Transferência de R$12500.0 para Kauana"
+    ],
+    "cliente": {
+      "nome": "Kaua reis",
+      "cpf": "123"
+    },
+    "numero": 9752,
+    "saldo": 19500.0,
+    "agencia": "100"
+  },
+  {
+    "historico": [
+      "[20/04/2025 03:27:08] Depósito de R$12500.0",
+      "[20/04/2025 03:27:08] Recebimento de R$12500.0 de Kaua reis",
+      "[20/04/2025 03:27:27] Saque de R$765.0"
+    ],
+    "cliente": {
+      "nome": "Kauana",
+      "cpf": "098"
+    },
+    "numero": 8690,
+    "saldo": 11735.0,
+    "agencia": "101"
+  },
+  {
+    "historico": [
+      "[20/04/2025 03:30:16] Depósito de R$23450.0",
+      "[20/04/2025 03:30:29] Saque de R$780.0"
+    ],
+    "cliente": {
+      "nome": "Darlei junior",
+      "cpf": "658"
+    },
+    "numero": 8404,
+    "saldo": 22670.0,
+    "agencia": "104",
+    "tipoConta": "corrente"
+  }
+]

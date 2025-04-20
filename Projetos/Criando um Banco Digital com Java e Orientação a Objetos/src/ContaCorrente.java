@@ -4,6 +4,7 @@ public class ContaCorrente extends Conta {
 
   public ContaCorrente(Cliente cliente, String agencia) {
       super(cliente, agencia);
+      this.tipoConta = "corrente";
   }
 
   @Override

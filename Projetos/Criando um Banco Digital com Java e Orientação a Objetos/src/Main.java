@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -14,6 +15,9 @@ public class Main {
             System.out.println("4 - Transferir");
             System.out.println("5 - Mostrar extrato");
             System.out.println("6 - Listar contas");
+            System.out.println("7 - Ver Histórico da Conta");
+            System.out.println("8 - Salvar contas em JSON");
+            System.out.println("9 - Carregar contas de JSON");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
@@ -79,6 +83,28 @@ public class Main {
 
               case 6:
                 banco.listarContas();
+                break;
+
+              case 7:
+                Conta contaHistorico = buscarConta(scanner, banco);
+                if (contaHistorico != null) {
+                    contaHistorico.imprimirHistorico();
+                }else{
+                  System.out.println("--- O histórico está vazio ---");
+                }
+                break;
+              case 8:
+                PersistenciaJSON.salvarContas(banco.getContas(), "contas.json");
+                break;
+
+              case 9:
+                List<Conta> contasCarregadas = PersistenciaJSON.carregarContas("contas.json");
+                if (contasCarregadas != null) {
+                  banco.setContas(contasCarregadas);
+                  System.out.println("Contas carregadas com sucesso!");
+                }else {
+                  System.out.println("Falha ao carregar contas.");
+                }
                 break;
 
               case 0:
