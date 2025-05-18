@@ -1,6 +1,5 @@
 ## 🐶 PetShop System (POO Challenge)
 
-```markdown
 # 🐶 PetShop System - Desafio de POO
 
 Sistema backend simulado de um PetShop com funcionalidades operacionais, desenvolvido inteiramente em Java puro, focando em aplicar os pilares da **Programação Orientada a Objetos**. Possui uma **máquina de banho interativa**, controle de estoque e um menu funcional via terminal.
