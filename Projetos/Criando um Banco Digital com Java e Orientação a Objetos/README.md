@@ -1,18 +1,56 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+---
 
-## Folder Structure
+# 🏦 Banco Digital - Java e POO
 
-The workspace contains two folders by default, where:
+Projeto backend simples de um sistema bancário criado com **Java puro**, com o objetivo de aplicar na prática os conceitos fundamentais da **Programação Orientada a Objetos**. Foram implementadas **classes abstratas**, **herança**, **polimorfismo** e encapsulamento para simular o funcionamento de contas bancárias reais.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🧰 Tecnologias Utilizadas
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Java 21
+- POO com Java puro (sem frameworks)
+- Menu de interação via terminal
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🏗️ Estrutura do Projeto
+
+- `Conta`: Classe base abstrata
+- `ContaCorrente`: Permite saldo negativo até certo limite
+- `ContaPoupanca`: Não permite saldo negativo
+- `Cliente`: Associa nome e dados à conta
+- `Banco`: Controla a lista de clientes
+- Sistema de menus interativo via CLI
+
+---
+
+## 📜 Funcionalidades
+
+- Abertura de contas
+- Depósitos e saques com regras específicas
+- Validação de saldo para diferentes tipos de conta
+- Relatório e status das contas
+- Interação via terminal
+
+---
+
+## 🚀 Como Executar
+
+1. Clone o projeto:
+   ```bash
+   git clone https://github.com/seu-usuario/banco-poo.git
+   cd banco-poo
+2. Compile e execute com:
+   ```bash
+   javac Main.java
+   java Main
+
+## ✅ Status
+✔️ Projeto concluído
+✔️ Regras de negócio implementadas
+✔️ Aprendizado completo dos pilares da OOP
+
+## ✍️ Autor
+Kauã Reis — Desenvolvedor Java em formação, buscando soluções elegantes e realistas para problemas do mundo real.
