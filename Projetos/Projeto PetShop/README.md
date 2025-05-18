@@ -1,6 +1,3 @@
-
----
-
 ## 🐶 PetShop System (POO Challenge)
 
 ```markdown
